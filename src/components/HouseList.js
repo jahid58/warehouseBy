@@ -8,6 +8,7 @@ const HouseList = ({ warehouses }) => {
       style={{
         display: "flex",
         flexWrap: "wrap",
+        padding: "10px",
         backgroundColor: "#5C5955",
       }}
     >

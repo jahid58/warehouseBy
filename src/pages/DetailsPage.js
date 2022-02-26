@@ -47,7 +47,7 @@ const DetailsPage = ({ warehouses, editHouse }) => {
         </div>
       )}
 
-      {!existedHouse && <h1>Name didn't matches</h1>}
+      {!existedHouse && <h1>Name not found</h1>}
     </div>
   );
 };

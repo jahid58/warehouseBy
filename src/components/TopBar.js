@@ -24,7 +24,7 @@ const TopBar = ({ houseNames }) => {
         <input
           type="text"
           className="topBar_searchInput"
-          placeholder="Search your Dream House"
+          placeholder="Search  Warehouse"
           onMouseMove={(e) => setSearchInput(e.target.value)}
         />
         <div className="topBar_searchIcon" onMouseDown={() => handleSearch()}>
