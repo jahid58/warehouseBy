@@ -1,0 +1,32 @@
+.filter_container {
+  margin: auto;
+}
+.filterBox {
+  padding: 10px;
+  min-height: 100px;
+  background-color: rgb(167, 183, 196);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.filterBox_text {
+  background-color: rgb(28, 28, 77);
+  height: 50px;
+  padding: 10px;
+  font-size: 1.3rem;
+  font-weight: 600px;
+  color: rgb(235, 239, 245);
+  border-radius: 10px;
+  box-shadow: 3px 3px rgb(145, 113, 113);
+}
+.filterBox_common {
+  background-color: rgb(208, 215, 218);
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  margin: 10px 20px;
+
+  outline: none;
+  border-radius: 5px;
+}

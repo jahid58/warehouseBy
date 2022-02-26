@@ -1,0 +1,35 @@
+.editHouse {
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(167, 157, 132);
+  color: aliceblue;
+}
+.editHouse_form {
+}
+.editHouse_form_inputs {
+  display: flex;
+  flex-wrap: wrap;
+
+  min-height: 100px;
+  align-items: center;
+  padding: 10px;
+}
+.common > input {
+  padding: 8px;
+  outline: none;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.newProperty_inputs > input {
+  padding: 8px;
+  outline: none;
+  margin: 5px;
+  border: none;
+  border-radius: 10px;
+}
+.newProperty > p {
+  font-size: 1.2rem;
+  color: rgb(2, 18, 68);
+  font-weight: 600;
+}

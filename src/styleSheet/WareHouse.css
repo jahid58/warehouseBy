@@ -1,0 +1,34 @@
+.house {
+  background-color: rgb(246, 250, 247);
+  cursor: pointer;
+  min-width: 280px;
+  min-height: 250px;
+  padding: 10px;
+  margin: 5px;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 2px rgb(170, 146, 146);
+}
+.house_image img {
+  height: 200px;
+  width: 180px;
+  margin-right: 10px;
+}
+.house_details {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.house_name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: rgb(14, 12, 12);
+}
+.info_name {
+  color: rgb(72, 81, 95);
+  font-size: 0.9rem;
+}
+.house_info {
+  color: rgb(48, 80, 55);
+  font-size: 1rem;
+  font-weight: 600;
+}

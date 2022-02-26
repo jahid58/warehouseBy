@@ -1,0 +1,44 @@
+.topBar {
+  height: 100%;
+  background-color: #022335;
+  padding: 5px 15px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.topBar_searchBox {
+  display: flex;
+  width: 50%;
+  min-width: 100px;
+  padding: 5px 20px;
+}
+.topBar_searchInput {
+  width: 100%;
+  padding: 10px;
+  height: 28px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: rgb(37, 34, 21);
+}
+.topBar_searchIcon {
+  background-color: aliceblue;
+  padding: 10px;
+  height: 28px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.topBar_login {
+  font-weight: 800;
+  font-size: 1.3rem;
+  color: rgb(227, 212, 233);
+  cursor: pointer;
+}
+
+.topBar_heading {
+  font-weight: 800;
+  font-size: 1.2rem;
+  color: rgb(247, 26, 155);
+  cursor: pointer;
+}

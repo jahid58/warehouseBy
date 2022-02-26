@@ -1,0 +1,23 @@
+.houseDetails_container {
+  text-align: center;
+  background-color: darkgoldenrod;
+}
+.houseDetails {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.houseDetails > img {
+  height: 250px;
+  min-width: 300px;
+}
+.houseDetails_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.houseDetails_info > p {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(228, 236, 238);
+}
