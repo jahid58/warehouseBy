@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../styleSheet/HouseDetails.css";
 
 const HouseDetails = ({ house }) => {
-  const { name, image, type, space_available, is_live, city, cluster } = house;
+  const { name, image } = house;
 
   return (
     <div className="houseDetails_container">
@@ -17,7 +17,7 @@ const HouseDetails = ({ house }) => {
               {Object.keys(house).map((key) => {
                 return (
                   <p>
-                    {key}: {house[key]}
+                    {key} :<span className="data"> {house[key]}</span>
                   </p>
                 );
               })}

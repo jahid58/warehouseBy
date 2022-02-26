@@ -4,6 +4,7 @@ import "../styleSheet/WareHouse.css";
 
 const WareHouse = ({ house }) => {
   const navigate = useNavigate();
+
   const handleClick = (data) => {
     navigate(`/details/${house.name}`);
   };

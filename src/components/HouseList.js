@@ -18,9 +18,3 @@ const HouseList = ({ warehouses }) => {
   );
 };
 export default HouseList;
-// const mapStateToProps = (state) => {
-//   return {
-//     wareHouses: state,
-//   };
-// };
-// export default connect(mapStateToProps)(HouseList);

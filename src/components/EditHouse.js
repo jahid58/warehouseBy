@@ -57,6 +57,9 @@ const EditHouse = ({ handleInput, handleSubmit, house }) => {
                   />
                 </div>
               </div>
+
+              {/* including new property to the warehouse */}
+
               <div className="newProperty">
                 <p> Add new details of this house</p>
                 <div className="newProperty_inputs">

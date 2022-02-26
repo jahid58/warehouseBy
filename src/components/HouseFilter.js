@@ -55,6 +55,8 @@ const HouseFilter = ({ warehouses }) => {
         <div className="filterBox_text">
           <p>Find Best Warehouse</p>
         </div>
+
+        {/* filter by city */}
         <div>
           <label>City: </label>
           <select
@@ -68,6 +70,8 @@ const HouseFilter = ({ warehouses }) => {
             ))}
           </select>
         </div>
+
+        {/* filter by cluster */}
         <div>
           <label>cluster: </label>
 
@@ -82,6 +86,8 @@ const HouseFilter = ({ warehouses }) => {
             ))}
           </select>
         </div>
+
+        {/* filter by space */}
         <div>
           <label>Space limit: </label>
           <select
@@ -96,6 +102,9 @@ const HouseFilter = ({ warehouses }) => {
           </select>
         </div>
       </div>
+
+      {/* showing data  by filtering */}
+
       <div>
         <HouseList warehouses={houses} />
       </div>

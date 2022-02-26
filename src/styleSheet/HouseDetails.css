@@ -1,6 +1,6 @@
 .houseDetails_container {
   text-align: center;
-  background-color: darkgoldenrod;
+  background-color: rgb(68, 63, 49);
 }
 .houseDetails {
   display: flex;
@@ -9,15 +9,22 @@
 }
 .houseDetails > img {
   height: 250px;
-  min-width: 300px;
+  min-width: 350px;
 }
 .houseDetails_info {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: start;
 }
 .houseDetails_info > p {
+  margin: 20px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(248, 245, 247);
+}
+.data {
+  margin: 20px;
   font-size: 1.1rem;
-  font-weight: 400;
-  color: rgb(228, 236, 238);
+  font-weight: 500;
+  color: rgb(168, 221, 23);
 }

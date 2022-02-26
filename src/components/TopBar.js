@@ -6,6 +6,7 @@ import { useNavigate } from "react-router-dom";
 const TopBar = ({ houseNames }) => {
   const [searchInput, setSearchInput] = useState();
   const navigate = useNavigate();
+
   const handleSearch = () => {
     if (searchInput) {
       navigate(`/details/${searchInput}`);

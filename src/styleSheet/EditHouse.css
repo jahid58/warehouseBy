@@ -2,10 +2,9 @@
   padding: 10px;
   text-align: center;
   background-color: rgb(167, 157, 132);
-  color: aliceblue;
+  color: rgb(0, 5, 8);
 }
-.editHouse_form {
-}
+
 .editHouse_form_inputs {
   display: flex;
   flex-wrap: wrap;
